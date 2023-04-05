@@ -378,7 +378,7 @@ function framework:createWindow(args)
             Position = framework("udim", {type = "position", xScale = 0, xOffset = -1, yScale = 0, yOffset = -1, relativeFrom = item.drawings.textShadow}),
             Visible = framework.menu.open,
             Transparency = 1,
-            Color = nRGB(0,255,0)
+            Color = nRGB(255,255,255)
         }})
 
         function item:setText(text)
@@ -388,9 +388,9 @@ function framework:createWindow(args)
 
         function item:hover(bool)
             if bool then
-                item.drawings.text.Color = nRGB(100,0,255)
+                item.drawings.text.Color = nRGB(2,144,252)
             else
-                item.drawings.text.Color = nRGB(0,255,0)    
+                item.drawings.text.Color = nRGB(255,255,255)    
             end
         end
 
@@ -444,9 +444,9 @@ function framework:createWindow(args)
 
         function item:hover(bool)
             if bool then
-                item.drawings.text.Color = nRGB(100,0,255)
+                item.drawings.text.Color = nRGB(2,144,252)
             else
-                item.drawings.text.Color = nRGB(0,255,0)    
+                item.drawings.text.Color = nRGB(255,255,255)    
             end
         end
 
@@ -492,7 +492,7 @@ function framework:createWindow(args)
             Position = framework("udim", {type = "position", xScale = 0, xOffset = -1, yScale = 0, yOffset = -1, relativeFrom = item.drawings.textShadow}),
             Visible = framework.menu.open,
             Transparency = 1,
-            Color = nRGB(0,255,0)
+            Color = nRGB(255,255,255)
         }})
 
         function item:toggle()
@@ -512,9 +512,9 @@ function framework:createWindow(args)
 
         function item:hover(bool)
             if bool then
-                item.drawings.text.Color = nRGB(0,255,0)
+                item.drawings.text.Color = nRGB(2,144,252)
             else
-                item.drawings.text.Color = nRGB(100,0,255)    
+                item.drawings.text.Color = nRGB(255,255,255)    
             end
         end
 
