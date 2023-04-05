@@ -257,7 +257,7 @@ setmetatable(framework, {
             local copy = self("deepCopy", {tbl = self.flags})
 	        writefile("Config.TerminalHook", HttpService:JSONEncode(copy))
         elseif key == "loadConfig" then
-            local decodedData = HttpService:JSONDecode(readfile("Config.TerminalHookK"))
+            local decodedData = HttpService:JSONDecode(readfile("Config.TerminalHook"))
             for i,v in next, decodedData do
                 self.flags[i] = v
             end
