@@ -1264,7 +1264,7 @@ function client.drawPlayerESP(requestedPlayer)
     ESP.drawings.inline = framework("draw", {hidden = constants["true"], class = "Square", properties = {
         Transparency = constants["1"],
         Thickness = constants["1"],
-        Color = functions["nRGB"](constants["0"], constants["0"], constants["0"]),
+        Color = functions["nRGB"](constants["255"], constants["0"], constants["0"]),
     }})
     
     ESP.drawings.box = framework("draw", {hidden = constants["true"], class = "Square", properties = {
