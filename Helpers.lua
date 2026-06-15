@@ -21,7 +21,7 @@ function h:Error(...)
 end
 
 function h:Info(...)
-  error("[" .. self.id .. " : INFO] " .. ...)
+  print("[" .. self.id .. " : INFO] " .. ...)
 end
 
 return h
